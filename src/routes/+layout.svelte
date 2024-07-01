@@ -1,6 +1,10 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	import "../app.css"
+
+
+
 </script>
 
 <div class="app">
@@ -11,7 +15,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p class="hover:underline font-bold hover: text-red-700 ">visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
 	</footer>
 </div>
 
@@ -42,6 +46,7 @@
 	}
 
 	footer a {
+		color: red;
 		font-weight: bold;
 	}
 
@@ -51,3 +56,4 @@
 		}
 	}
 </style>
+
